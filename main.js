@@ -75,7 +75,7 @@ function wireExternalLinks() {
 }
 
 function initCountdown() {
-  const target = new Date("2026-11-24T09:30:00+05:30").getTime();
+  const target = new Date("2026-12-11T09:30:00+05:30").getTime();
   const dEl = document.getElementById("cd-days");
   const hEl = document.getElementById("cd-hours");
   const mEl = document.getElementById("cd-mins");
