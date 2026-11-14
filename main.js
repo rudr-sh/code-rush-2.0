@@ -15,7 +15,7 @@ import footerHtml from './sections/10-footer.html?raw';
 /** Paste your links here (open in a new tab when they start with http). */
 const REGISTER_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdTFbtbSUuYAFguAUi7UM96pLU4rC3h0-pe0CHAQIVHkDnriA/viewform?usp=publish-editor";
-const BROCHURE_URL = "https://drive.google.com/file/d/1m0RC0YFTbh8Y4WRYqBHTTh1oUSaksnqa/view?usp=sharing";
+const BROCHURE_URL = "https://drive.google.com/file/d/1GMBi_BVRrMz1hm3sB79QZ63se11TAo_O/view";
 const RULES_URL =
   "https://drive.google.com/file/d/1X8kxqBBzCgP1iAT2u55lYbFvb9taHrQP/preview";
 
