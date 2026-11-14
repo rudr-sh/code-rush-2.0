@@ -17,7 +17,7 @@ const REGISTER_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdTFbtbSUuYAFguAUi7UM96pLU4rC3h0-pe0CHAQIVHkDnriA/viewform?usp=publish-editor";
 const BROCHURE_URL = "https://drive.google.com/file/d/159AtCiBRlvh5_V4qYfEh-GrZvXfR4stF/view";
 const RULES_URL =
-  "https://drive.google.com/file/d/1X8kxqBBzCgP1iAT2u55lYbFvb9taHrQP/preview";
+  "https://drive.google.com/file/d/1MxEF1Az2S_YJoHZfeDwSvtNfr8iOuknf/view?usp=sharing";
 
 const sectionList = [
   navbarHtml,
