@@ -174,20 +174,23 @@ function initScheduleTimeline() {
   if (!timelineEl || !day1Btn || !day2Btn) return;
 
   const day1 = [
+    { time: "07:30 AM", title: "ID Card Distribution", desc: "Reporting and collecting ID Cards." },
+    { time: "08:30 AM", title: "Breakfast", desc: "Breakfast is served." },
     { time: "09:30 AM", title: "Opening Ceremony", desc: "Kickoff and briefing." },
-    { time: "11:00 AM", title: "Ideation & PPT", desc: "Brainstorm ideas." },
-    { time: "01:30 PM", title: "Lunch Break", desc: "Recharge." },
-    { time: "02:30 PM", title: "Development Phase 1", desc: "Start building." },
-    { time: "04:30 PM", title: "Snacks Break", desc: "Quick refreshments." },
-    { time: "05:30 PM", title: "Development Phase 2", desc: "Continue building." },
-    { time: "08:30 PM", title: "Dinner Break", desc: "Dinner served." },
-    { time: "10:00 PM", title: "Development Phase 3", desc: "Overnight hacking." }
+    { time: "10:30 AM", title: "Ideation Phase", desc: "Brainstorm ideas." },
+    { time: "01:00 PM", title: "Lunch + Evaluation", desc: "Have your lunch and present your ideas." },
+    { time: "03:30 PM", title: "Development Phase 1", desc: "Results of round 1  is declared and begin building for round 2." },
+    { time: "06:00 PM", title: "Snacks", desc: "Quick snacks break." },
+    { time: "06:30 PM", title: "Development Phase 2", desc: "Develop your projects to the next level."},
+    { time: "08:30 PM", title: "Dinner", desc: "Dinner is served."},
+    { time: "10:00 PM", title: "Development Phase 3", desc: "Give your projects final touches."}
+
   ];
 
   const day2 = [
-    { time: "08:30 AM", title: "Breakfast", desc: "Morning refresh." },
-    { time: "09:30 AM", title: "Round 2 Evaluation", desc: "Final demos." },
-    { time: "11:30 AM", title: "Results & Prize Distribution", desc: "Winners announced." }
+    { time: "04:00 AM", title: "Final Deployment", desc: "Submit your projects for evaluation."},
+    { time: "08:15 AM", title: "Breakfast + Evaluation", desc: "Have your breakfast and showcase what you've developed."},
+    { time: "10:30 AM", title: "Closing Ceremony", desc: "Winner's are declared and goodbyes."}
   ];
 
   function render(data) {
